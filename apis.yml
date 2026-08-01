@@ -1,8 +1,27 @@
 aid: signal-advisors
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/signal-advisors.png
 name: Signal Advisors
-description: Signal Advisors is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Signal Advisors is a financial technology company building an integrated
+  software platform for independent financial advisors and insurance professionals.
+  The Signal Platform consolidates annuity, life insurance, and wealth management
+  workflows into a single system, replacing the traditional Independent Marketing
+  Organization (IMO) model. Product lines include Signal Annuity (quoting, design,
+  and submission), Signal Wealth (portfolio and compliance management), and Signal
+  Life (life-insurance workflow automation), with features such as real-time carrier
+  status updates (TrueStatus), fast commission payouts (TruePay), AI-generated policy
+  summaries, and integrated householding. The company operates a closed, account-based
+  advisor portal and does not publish a public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/signal-advisors/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +30,36 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Insurance
+- Wealth Management
+- Annuities
+- Financial Advisors
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/signal-advisors-domain-security.yml
+- type: Website
+  url: https://www.signaladvisors.com
+- type: Login
+  url: https://portal.signaladvisors.com
+- type: PrivacyPolicy
+  url: https://www.signaladvisors.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.signaladvisors.com/legal/terms-of-service
