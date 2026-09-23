@@ -1,0 +1,26 @@
+# Front Door AI Index — signal-advisors — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: signal-advisors
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.signaladvisors.com
+  final_host: www.signaladvisors.com
+  ownership: own
+  owner: signal-advisors
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 1.9
+  words: 3153
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 6
+    agent: 2
